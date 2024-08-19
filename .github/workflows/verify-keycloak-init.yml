@@ -24,3 +24,5 @@ on:
 jobs:
   verify-keycloak-init:
     uses: abhishek8shankar/kattu/.github/workflows/verify-keycloak-init.yml@MOSIP-34578
+    with: 
+      kc_values_file_path: charts/keycloak-init/values.yaml
