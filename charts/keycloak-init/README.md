@@ -1,4 +1,4 @@
-# Keycloak Init
+# Keycloak Initt
 
 * Make sure Keycloak server is running
 * Update helm dependencies using:
