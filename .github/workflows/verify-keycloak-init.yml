@@ -21,7 +21,7 @@ on:
       - MOSIP*
       - release*
     paths:
-      - charts/keycloak-init/*
+      - 'charts/keycloak-init/**'
 
 jobs:
   verify-keycloak-init:
